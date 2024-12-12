@@ -7,7 +7,7 @@ body {
 
 .dark {
   background-color: #4B0082;
-  color: white; /* Set the general text color to white in dark mode */
+  color: white; 
 }
 
 .light {
@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   text-align: center; 
 }
 
@@ -51,14 +51,14 @@ h2 {
 }
 
 .dark h2 {
-  color: white; /* Ensure h2 is white in dark mode */
+  color: white; 
 }
 
 .dark .question p,
 .dark .question button,
 .dark .option-btn,
 .dark .result h3 {
-  color: white; /* Make sure these elements have white text in dark mode */
+  color: white; 
 }
 
 .question {
@@ -102,7 +102,7 @@ button:hover {
 }
 
 .dark .result h3 {
-  color: white; /* Ensure result text is white in dark mode */
+  color: white; 
 }
 
 .navbar {
@@ -151,7 +151,7 @@ button:hover {
 .options-column {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Space between options */
+  gap: 10px; 
 }
 
 .option-btn {
